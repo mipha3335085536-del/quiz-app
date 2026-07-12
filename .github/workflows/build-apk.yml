@@ -45,11 +45,11 @@ jobs:
           restore-keys: |
             buildozer-${{ runner.os }}-
 
-      - name: Setup Android SDK
+      - name: Setup Android SDK + NDK
         uses: android-actions/setup-android@v3
         with:
           cmdline-tools-version: 11076708
-          packages: 'platform-tools platforms;android-33 build-tools;33.0.0'
+          packages: 'platform-tools platforms;android-33 build-tools;33.0.0 ndk;25.1.8937393'
           accept-license: true
 
       - name: Accept Android SDK licenses
@@ -60,6 +60,7 @@ jobs:
           yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
           echo "ANDROID_HOME=$ANDROID_HOME" >> $GITHUB_ENV
           echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT" >> $GITHUB_ENV
+          echo $ANDROID_HOME
 
       - name: Install Python dependencies
         run: |

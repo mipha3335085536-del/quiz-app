@@ -18,7 +18,6 @@ version.code = 1
 requirements = python3,kivy==2.3.1,openpyxl==3.1.5,pillow
 # NDK/SDK 版本（稳定兼容组合）
 android.ndk = 25b
-android.sdk = 33
 android.api = 33
 android.minapi = 24
 android.ndk_api = 24
@@ -37,7 +36,12 @@ android.navbar_color = 1E293B
 log_level = 2
 
 # 架构（arm64-v8a 兼容 99% 现代手机）
-android.arch = arm64-v8a
+android.archs = arm64-v8a
+android.accept_sdk_license = True
+
+# SDK / NDK 路径（使用 GitHub Actions 预装环境，避免下载和许可证问题）
+android.sdk_path = /home/runner/android-sdk
+android.ndk_path = /home/runner/android-sdk/ndk/25.1.8937393
 
 # 图标和启动图
 icon.filename = %(source.dir)s/icon.png
