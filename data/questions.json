@@ -1,0 +1,4626 @@
+[
+  {
+    "type": "single",
+    "content": "使用OTDR测试光缆断点时，必须先拔下对端光板的尾纤，否则可能会打坏对端的光板。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3f09cd35"
+  },
+  {
+    "type": "single",
+    "content": "FEC收发配置不一致会导致业务中断",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "caa4f3d5"
+  },
+  {
+    "type": "single",
+    "content": "OTUk_LOM表示帧对齐信号异常告警，如果帧对齐处理连续3ms处于帧失步OOF状\n态，产生该告警。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "90f6ecb3"
+  },
+  {
+    "type": "single",
+    "content": "OTN线路板性能指标重点关注输入光功率和误码率，光功率不正常可能导致误码，如果输入光功率过高，可以在IN口添加光衰。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "67a39a25"
+  },
+  {
+    "type": "single",
+    "content": "EDFA在放大业务信号的同时也会给系统带来噪声，它是噪声的主要来源。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "21f701e6"
+  },
+  {
+    "type": "single",
+    "content": "相比与SDH系统WDM系统对千光纤的利用率提升是将光纤划分成了“多车道”。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b9b5d446"
+  },
+  {
+    "type": "single",
+    "content": "接收光功率接近灵敏度可能会产生误码，接近过载点也可能产生误码。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "cb16f2f0"
+  },
+  {
+    "type": "single",
+    "content": "拉曼放大器是分布式放大器，其放大的介质为传输光纤，一般置于接收端，称为前向拉曼放大器。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9cd77618"
+  },
+  {
+    "type": "single",
+    "content": "接收端信噪比下降不会导致误码产生。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "957edc38"
+  },
+  {
+    "type": "single",
+    "content": "在维护过程中，对某网元重下配置后，需特别注意将网元的网元时间设置为当前时间，否则网元会工作在缺省时间里，而缺省时间并不是当前时间。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "cc8c5159"
+  },
+  {
+    "type": "single",
+    "content": "已经主备通道差异门限5dB,初始光功率主备通道均为2dBm。由于主通道光纤损耗增大，变为-4dBm,备用通道未变。该情况下会触发光线路保护倒换。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c1237d1e"
+  },
+  {
+    "type": "single",
+    "content": "传统OTN网络定义的最小管道颗粒度为ODU0,即1.25G,如果用于承载更小颗粒的业务，可能造成资源利用率不高的现象。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "a13e28dc"
+  },
+  {
+    "type": "single",
+    "content": "故障定位的基本原则是将故障准确定位到单站，甚至是单板。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0ccab82d"
+  },
+  {
+    "type": "single",
+    "content": "光放大单元可以弥补线路损耗提高传输距离，通过多级级联的方式可以将系统传输距离延伸至无限远。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "de69f9b5"
+  },
+  {
+    "type": "single",
+    "content": "T220E单板支持VC颗粒的交叉",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7548b730"
+  },
+  {
+    "type": "single",
+    "content": "创建2M ASON 智能业务必须提前创建VC12虚拟TE链路",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "a078e388"
+  },
+  {
+    "type": "single",
+    "content": "光功率是波分系统的一项重要指标，直接关系到信号的传输距离，所以站点的输出光功率应该越高越好，这样才能保证信号能到达对端站点。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2db545ea"
+  },
+  {
+    "type": "single",
+    "content": "TCP/IP协议中，传输层定义了数据包格式和寻址方式，主要负责数据包在网络中的路由。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "a9e40856"
+  },
+  {
+    "type": "single",
+    "content": "在非汇聚型OTU处理OTN标准信号场景中，OTU单板在客户侧收到OTUk_TIM告警后，会向下游回传OTUk_BDI告警。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "151b9cce"
+  },
+  {
+    "type": "single",
+    "content": "各级别的OTUk帧格式相同，级别越高则频率和速率也越高。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ecf16d5b"
+  },
+  {
+    "type": "single",
+    "content": "在光线路上，噪声不会随着传输距离的增加而减少。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ce5a06dc"
+  },
+  {
+    "type": "single",
+    "content": "业务路径属千网管侧的网络层数据，网络层删除路径不会影响业务。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6a092c97"
+  },
+  {
+    "type": "single",
+    "content": "DM功能可以用来统计业务报文的时延和抖动。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7624353d"
+  },
+  {
+    "type": "single",
+    "content": "凡进行2M误码测试的155M支路可不再进行155M误码测试。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7e6d738a"
+  },
+  {
+    "type": "single",
+    "content": "系统误码指标可用远端环回方式进行测试，误码指标应采用单向指标，不需进行两个方向分别进行单向测试。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "96e9ba46"
+  },
+  {
+    "type": "single",
+    "content": "按备份方式来说，通道保护环为1:1业务级保护，复用段保护环为1+1业务级保护。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7ca9e727"
+  },
+  {
+    "type": "single",
+    "content": "二纤双向复用段保护环的的保护容量是2×STM-4(假定为4个节点组成的STM-4环)，其特点是需要APS协议，适用于分散型业务。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "aac8e34d"
+  },
+  {
+    "type": "single",
+    "content": "所谓自愈是指在网络发生故障(例如光纤断)时，无需人为干预，网络自动地在极短的时间内，ITU-T规定为50ms以内，使业务自动从故障中恢复传输，使用户几乎感觉不到网络出了故障。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "04dbb254"
+  },
+  {
+    "type": "single",
+    "content": "同步数字体系是一个将复接、线路传输及交换功能融为一体，并由统一网管系统操作的综合信息传送网络。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f63df97f"
+  },
+  {
+    "type": "single",
+    "content": "以太网透传是指来自以太网接口的数据帧不经过二层交换，直接进行协议封装和速率适配后，映射到SDH的虚容器(VC)中进行传输。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "790c4911"
+  },
+  {
+    "type": "single",
+    "content": "主机安全防护主要的方式包括：安全配置、安全补丁、安全主机加固。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "a6729cab"
+  },
+  {
+    "type": "single",
+    "content": "B1字节位于再生段开销中，可监测出整个STM-N帧在传输中出现了的误码块数，因此高阶通道存在误码时，B1也能检测上报出来。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "59b8456c"
+  },
+  {
+    "type": "single",
+    "content": "OTDR测试光纤距离时，选择测试范围应大于光纤全程长度。（ ）",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0f4b13f3"
+  },
+  {
+    "type": "single",
+    "content": "SDH单向通道环的时隙利用率比复用段保护高。（ ）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c35c1aac"
+  },
+  {
+    "type": "single",
+    "content": "220kV及以上线路每套电流差动保护装置配置两条独立的通信通道，两条独立通道应由不同传输设备与光缆路由承载。保护装置的通信通道不得开通SDH自愈保护，可开通电力ASON网络“先拆后建”自愈恢复功能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "15800f85"
+  },
+  {
+    "type": "single",
+    "content": "ADSS 验收需检查光缆挂点位置与电力线的安全距离。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d55788e3"
+  },
+  {
+    "type": "single",
+    "content": "ALS功能是为了减少激光器的开启时间以延长光器件的使用寿命",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "81406e30"
+  },
+  {
+    "type": "single",
+    "content": "ASON正是有了控制平面和接口，通过协议和信令系统动态地交换网络拓扑状态信息、路由信息及其他控制信息，才具备了实现光通道的动态建立与拆除的能力和自动交换的功能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b8f8ecdf"
+  },
+  {
+    "type": "single",
+    "content": "AU-PTR定位VC-4在AU-4中的位置，TU-PTR定位VC-12在TU-12中的位置，与定帧字节一起完成从高速信号STM-N中直接下低速信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f1b4b97e"
+  },
+  {
+    "type": "single",
+    "content": "B3只能在一帧中检测出最多8个误码块，也就是说G1b1—b4的值0—8表示检测0—8个误码块，其余7个值（9-15）均被当成无误码块",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "fc729904"
+  },
+  {
+    "type": "single",
+    "content": "BITS设备应正确跟踪时钟级别最高的、正常的输入信号，并由此发生自动选择输入信号的倒换/倒回。()",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "17aaac73"
+  },
+  {
+    "type": "single",
+    "content": "BITS是指大楼综合定时供给系统，其内部配置的振荡器为二级时钟，即Rb或晶体钟。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3d7e1fdc"
+  },
+  {
+    "type": "single",
+    "content": "Bl监测STM-N帧的所有字节，而B2只监测除再生段开销以外的所有字节，B3只监测各通道VC-3和VC-4",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e4c49a13"
+  },
+  {
+    "type": "single",
+    "content": "E1数字中继接口阻抗，同轴不平衡接口为75欧，平衡电缆接口为120欧",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "4b71d6ae"
+  },
+  {
+    "type": "single",
+    "content": "K1字节用于传送复用段自动保护倒换（APS）信令。K2(b6~b8)字节用于向复用段发送端回送接收端状态指示信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0536a433"
+  },
+  {
+    "type": "single",
+    "content": "LPR（区域基准时钟源）由卫星定位系统+Rb原子钟组成的",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0ed45c3e"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备交叉板应支持1+1备份配置，能实现在线切换。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e2610386"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应具有交叉连接板、电源板等关键部件的冗余备份。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "458dc794"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应支持点到点的以太网业务、点到多点以太网业务汇聚以及透明LAN业务",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0667d65a"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应至少配置外同步输入接口和外同步输出接口各两个，接口种类为2048kb/s或2048kHz",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d00c8184"
+  },
+  {
+    "type": "single",
+    "content": "PDH采用按字复接，没有全世界统一的接口标准",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "626934a8"
+  },
+  {
+    "type": "single",
+    "content": "PDH采用的数字复接方法一般为异步复接",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c29a9ef6"
+  },
+  {
+    "type": "single",
+    "content": "PRC和LPR都是一级基准时钟",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "8b78c5ac"
+  },
+  {
+    "type": "single",
+    "content": "RSOH、MSOH、HPOH、LPOH完成层层细化的监控功能",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "aa8310ee"
+  },
+  {
+    "type": "single",
+    "content": "SDH传输体制的一个特点是对于任意STM级别，帧频恒定",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c8467852"
+  },
+  {
+    "type": "single",
+    "content": "SDH传输网STM-16信号的标准速率为（2.5G）kbit/s",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "78624f76"
+  },
+  {
+    "type": "single",
+    "content": "SDH传输网最基本的同步传送模块是VC12",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9776d10f"
+  },
+  {
+    "type": "single",
+    "content": "SDH的带宽利用率比PDH的带宽的利用率高",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "99ac67eb"
+  },
+  {
+    "type": "single",
+    "content": "SDH多业务平台的充分利用了SDH技术的保护恢复、延时性能和网管能力，并加以改进支持二层乃至三层的数据智能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2beafe73"
+  },
+  {
+    "type": "single",
+    "content": "SDH复用映射结构中容器是一种用来装载各种不同速率的信息结构，有C11、C12、C2、C3、C4五种",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9087cfba"
+  },
+  {
+    "type": "single",
+    "content": "SDH光接口按光纤距离、光板速率和使用波长分别以不同的代码表示。L—16.2就是某种光接口代码，其中L表示长距、16表示STM-16、2表示波长1550nm",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "fccc94cd"
+  },
+  {
+    "type": "single",
+    "content": "SDH设备时钟频率准确度是±4.6×10-8",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d02cbe5d"
+  },
+  {
+    "type": "single",
+    "content": "SDH网管系统利用帧结构中丰富的开销字节，实施对SDH设备和SDH传送网的各项管理",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "8dec7db9"
+  },
+  {
+    "type": "single",
+    "content": "SDH网络保护方式，由于1：1方式的保护通路可用于传送额外业务，因而系统效率高于1+1方式。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "dcc5ca05"
+  },
+  {
+    "type": "single",
+    "content": "SDH网络基本单元中的虚容器可分成低阶虚容器、中阶虚容器和高阶虚容器三类。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1fd73176"
+  },
+  {
+    "type": "single",
+    "content": "SDH网络具备的OAM功能是指：运行、配置和维护能力",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9b9a3d4d"
+  },
+  {
+    "type": "single",
+    "content": "SDH信号的速率等级表示为STM-N，其中N是正整数，可以是任意值",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "5af85bf2"
+  },
+  {
+    "type": "single",
+    "content": "SDH以字节为（8bit）单位进行传输，STM-1的帧结构是一种以字节结构为基础的矩形块状帧结构，它由270列和9行字节组成",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d37b6920"
+  },
+  {
+    "type": "single",
+    "content": "SDH帧结构由段开销、AU-PTR、净负荷三部分构成",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "82a0704c"
+  },
+  {
+    "type": "single",
+    "content": "SDH只能通过光纤进行传输",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "74aa3112"
+  },
+  {
+    "type": "single",
+    "content": "SDH自愈保护中因为2纤双向环中每个方向的业务光纤和保护光纤是同一条光纤，即在一条光纤上既传输业务信号又传输保护信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7f2bd1be"
+  },
+  {
+    "type": "single",
+    "content": "SDH字节间插复用时，所有字节都进行间插",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "59bab519"
+  },
+  {
+    "type": "single",
+    "content": "SNMP不是网络管理协议",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f9f96b1b"
+  },
+  {
+    "type": "single",
+    "content": "按ITU规范，标准SDH的STM-1电信号可以不扰码。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "174a5504"
+  },
+  {
+    "type": "single",
+    "content": "不可用时间是指连续10秒内每秒的误码率都劣于10E-3，从该段时间的第一秒起就认为进入了不可用时间",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9add04f3"
+  },
+  {
+    "type": "single",
+    "content": "常见的网元类型有TM、ADM、REG和DXC",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "cb6c9eed"
+  },
+  {
+    "type": "single",
+    "content": "从时钟的锁定状态是从时钟的非正常工作状态。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2fc5be35"
+  },
+  {
+    "type": "single",
+    "content": "当SDH系统内不支持SSM功能时，不能采用该系统传递定时。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ba4e5883"
+  },
+  {
+    "type": "single",
+    "content": "当多个具有一定强度的光波在光纤中混合时，光纤的非线性会导致产生其它新的波长，就是四波混频效应。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9307f120"
+  },
+  {
+    "type": "single",
+    "content": "各网络节点同步输入接口应接受来自局内BITS设备不同输出模块的两路定时信号，采用一主一备外定时信号方式。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ee45c9ab"
+  },
+  {
+    "type": "single",
+    "content": "更换单板的时候，可以带纤芯插拔。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b2add7e8"
+  },
+  {
+    "type": "single",
+    "content": "故障定位的常用方法：一分析，二环回，三换板。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9e2f3b39"
+  },
+  {
+    "type": "single",
+    "content": "光波是一种高频电磁波，不同波长（频率）的光波复用在一起进行传输，彼此之间相互作用，可能产生非线性效应。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d6b4b3e2"
+  },
+  {
+    "type": "single",
+    "content": "光传输系统的中继段长度计算应按坏值设计法计算",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1596790e"
+  },
+  {
+    "type": "single",
+    "content": "光交换技术是指不经过任何光/电转换，在光域直接将输入光信号交换到不同的输出端。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "312bea20"
+  },
+  {
+    "type": "single",
+    "content": "光接收机的主要作用是将经过光纤传输的微弱光信号转换成电信号，并放大、再生成原发射的信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d9cecf26"
+  },
+  {
+    "type": "single",
+    "content": "光接收机灵敏是指R点处为达到1×10-6的BER值所需要的平均接收功率的最小可接收值",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f7af4c9c"
+  },
+  {
+    "type": "single",
+    "content": "光纤色散是指光纤所传信号的不同频率或不同模式有不同的传播群速度，导致所传信号到达终端时造成信号脉冲展宽，从而引起信号失真",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "67279176"
+  },
+  {
+    "type": "single",
+    "content": "环回会导致正常业务暂时中断，一般只有在业务出现中断等重大事故时，才使用环回法进行故障排除。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "deb5ac1e"
+  },
+  {
+    "type": "single",
+    "content": "调度自动化通道优先采用E1通道或MSTP数据专线和调度数据网络两条完全独立的通道。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ff776075"
+  },
+  {
+    "type": "single",
+    "content": "通道保护功能是由支路板和线路板完成的。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "77b5f6ed"
+  },
+  {
+    "type": "single",
+    "content": "通信网同步与保护、自动化专业的同步是一样的。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "29d9ba9d"
+  },
+  {
+    "type": "single",
+    "content": "同步设备的定时输出功能无需冗余配置功能。()",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "768a1d2f"
+  },
+  {
+    "type": "single",
+    "content": "同步设备应能配置2级节点时钟或3级节点时钟。()",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "af82fa8d"
+  },
+  {
+    "type": "single",
+    "content": "同步网由同步网节点设备(各种级别高精度的时钟)和定时链路组成。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9a174162"
+  },
+  {
+    "type": "single",
+    "content": "外同步接口(包括输入和输出)可有两种选择，即2048kHz和2048kbit/s，但应优先选用2048kHz。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "49c7b7b8"
+  },
+  {
+    "type": "single",
+    "content": "稳控系统中主站、子站和执行站之间采用1条独立专线通道，每条通道应开通SDH网络自愈功能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d2e8f148"
+  },
+  {
+    "type": "single",
+    "content": "无输入信号上光路传输，光路上传送的是AIS信号。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "a2b72446"
+  },
+  {
+    "type": "single",
+    "content": "误码产生的主要原因是在传输信道中的噪声和干扰以迭加的形式随信号一起进入判决电路，使判决再生电路产生误码。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ee76274d"
+  },
+  {
+    "type": "single",
+    "content": "信噪比越大，信息传输的质量就越差",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0a88fbb3"
+  },
+  {
+    "type": "single",
+    "content": "一般同步时钟的精度外时钟≥线路提取时钟≥内部自由钟",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b986f5a0"
+  },
+  {
+    "type": "single",
+    "content": "一个STM-1 信号最多可分解复用成1 个140Mbps、3 个34Mbps、63 个2Mbps 信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d5e5cdfd"
+  },
+  {
+    "type": "single",
+    "content": "一级基准钟频率准确度应优于±1×10-11",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "060720ad"
+  },
+  {
+    "type": "single",
+    "content": "以基准时钟为参考基准，在连续同步工作30天之后，保持一年时间的情况下，2级基准时钟的频率准确度要求为优于1.6×10E-8。()",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "955fe60e"
+  },
+  {
+    "type": "single",
+    "content": "用光功率计测试收光功率为0dBm时，即表示收不到光",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "05975b3c"
+  },
+  {
+    "type": "single",
+    "content": "用于安自的2M通道关闭其重定时功能，同时将稳控装置通信时钟设置为“主—主”方式或“主—从”方式。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "55bc1c59"
+  },
+  {
+    "type": "single",
+    "content": "由BITS设备输出的2.048MHz定时信号带有SSM协议。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "177baa26"
+  },
+  {
+    "type": "single",
+    "content": "由于ADM具有灵活的插入／分出电路的功能，当它用于两终端之间的一个中继点上时，可作为提取和插入准同步信号或同步信号的复用设备，因此常用于线形网和环形网",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6ba4fcc5"
+  },
+  {
+    "type": "single",
+    "content": "在850nm窗口，光纤即可以用于单模传输，又可以用于多模传输",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9e1249a2"
+  },
+  {
+    "type": "single",
+    "content": "在SDH中，AU-4指针调整时，相邻两次调整至少间隔3帧",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "5dad29bf"
+  },
+  {
+    "type": "single",
+    "content": "在光纤回路进行接触激光源的工作，不需要采取防护措施。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2e7c27df"
+  },
+  {
+    "type": "single",
+    "content": "在光纤通信中，光电检波器的作用是将光信号变为电信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "24f92a86"
+  },
+  {
+    "type": "single",
+    "content": "在判断某传输设备的光板故障时，可直接用尾纤将其自环测试。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f34b4ba9"
+  },
+  {
+    "type": "single",
+    "content": "在制定本地BITS设备输出端口分配方案时，应避免出现定时环路，包括主、备用定时基准链路倒换时不应构成定时环路。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c3b4ed11"
+  },
+  {
+    "type": "single",
+    "content": "最适合于DWDM系统使用的光纤是G.652，因为该光纤的色散系数较小，衰耗系数与其他类型的光纤相差无几，而且能够有效抑制四波混频效应。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e03130b7"
+  },
+  {
+    "type": "single",
+    "content": "若线路两侧保护装置为新配置装置，且通信设备支持2M光接口，保护装置复用2M通道均应采用2M光接口",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d626fd5b"
+  },
+  {
+    "type": "single",
+    "content": "2048kHz外同步输入接口应具有识别SSM质量等级的功能，或具有识别AIS信息的功能及预置SSM质量等级的功能。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "49bdd8c7"
+  },
+  {
+    "type": "single",
+    "content": "设备外部环回可在设备的相应接口或ODF、DDF配线架上进行。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7c3ac47d"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应支持子网连接保护（SNCP）、二纤复用段共享环保护（2F MS-SPRING）、四纤复用段共享环保护（4F MS-SPRING）（STM-64设备）、环间互通业务保护（DNI）等。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "cfb69ff7"
+  },
+  {
+    "type": "single",
+    "content": "以太网数据帧的封装应采用GFP或LAPS协议，首选GFP封装协议。GFP具体技术规范应符合ITU-T建议G.7041。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "83a81086"
+  },
+  {
+    "type": "single",
+    "content": "自动倒换功能检查项目包括保护倒换准则检查和保护倒换时间测试。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "951e375f"
+  },
+  {
+    "type": "single",
+    "content": "SDH光传输设备的传输距离主要由衰减、抖动等因素决定。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "06a73151"
+  },
+  {
+    "type": "single",
+    "content": "SDH设备进行复用段保护采用的APS协议中，使用K1、K2字节。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e20e6960"
+  },
+  {
+    "type": "single",
+    "content": "光放大器属于有源器件。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7258a0b1"
+  },
+  {
+    "type": "single",
+    "content": "所有光方向到TM的业务必须落地、不同光方向的业务不能通过光板直接穿通的SDH设备可配置成TM网元。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b50d29d6"
+  },
+  {
+    "type": "single",
+    "content": "自愈环按环上业务的方向可将自愈环分为单向环和双向环两大类。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "aa62a9c7"
+  },
+  {
+    "type": "single",
+    "content": "ASON网的新建、扩建、改造应与现有运行网络互联互通，纳入同一网管系统统一管理。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2a6a783c"
+  },
+  {
+    "type": "single",
+    "content": "OTUk帧的帧结构大小是可变的。（）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "5ceea0c8"
+  },
+  {
+    "type": "single",
+    "content": "OTN系统分为OTN传送层、OTN管理层和OTN控制层（可选）三个层面，OTN传送层可分为OTN电传送层和OTN光传送层。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "70d19b80"
+  },
+  {
+    "type": "single",
+    "content": "OTM-nr.m由最多n个光通道复合组成，r表示简化功能（reduced）,支持非随路开销。（）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "edb2caf3"
+  },
+  {
+    "type": "single",
+    "content": "为了实现网络的可恢复性，在ASON中存在两种机制：保护和恢复。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "587a1ccd"
+  },
+  {
+    "type": "single",
+    "content": "现网的WDM系统大都采用单纤双向传输方式。（）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "619586ab"
+  },
+  {
+    "type": "single",
+    "content": "完全标准化光传送单元OTUk是完全符合ITU-TG.709建议的OTUk帧，它具有ITU-TG.709中规定的精确字段格式、字段大小和类型。（）",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "914893da"
+  },
+  {
+    "type": "single",
+    "content": "相比于SDH系统，WDM系统对于光纤的利用率提升是将光纤划分成了“多车道”。（）",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0ef58972"
+  },
+  {
+    "type": "single",
+    "content": "通信网管及业务应用系统指的是用于监视和控制电力通信网络运行的通信网管系统，以及基于计算机及网络技术的语音、视频、应急等通信业务应用系统。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d4cfe2d9"
+  },
+  {
+    "type": "single",
+    "content": "用于监视和控制电力通信网络运行的通信网管系统，以及基于计算机及网络技术的语音、视频、应急等通信业务应用系统。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0566d4e2"
+  },
+  {
+    "type": "single",
+    "content": "使用OTDR测试光缆断点时，必须先拔下对端光板的尾纤，否则可能会打坏对端的光板。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7bff339e"
+  },
+  {
+    "type": "single",
+    "content": "FEC收发配置不一致会导致业务中断",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ef7c3c53"
+  },
+  {
+    "type": "single",
+    "content": "OTUk_LOM表示帧对齐信号异常告警，如果帧对齐处理连续3ms处于帧失步OOF状\n态，产生该告警。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0a3d19b9"
+  },
+  {
+    "type": "single",
+    "content": "OTN线路板性能指标重点关注输入光功率和误码率，光功率不正常可能导致误码，如果输入光功率过高，可以在IN口添加光衰。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7eb9d153"
+  },
+  {
+    "type": "single",
+    "content": "EDFA在放大业务信号的同时也会给系统带来噪声，它是噪声的主要来源。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c86ab2dc"
+  },
+  {
+    "type": "single",
+    "content": "相比与SDH系统WDM系统对千光纤的利用率提升是将光纤划分成了“多车道”。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9ac5c2be"
+  },
+  {
+    "type": "single",
+    "content": "接收光功率接近灵敏度可能会产生误码，接近过载点也可能产生误码。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c3b4e6f7"
+  },
+  {
+    "type": "single",
+    "content": "拉曼放大器是分布式放大器，其放大的介质为传输光纤，一般置于接收端，称为前向拉曼放大器。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3ee7676c"
+  },
+  {
+    "type": "single",
+    "content": "接收端信噪比下降不会导致误码产生。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1a06ce9d"
+  },
+  {
+    "type": "single",
+    "content": "在维护过程中，对某网元重下配置后，需特别注意将网元的网元时间设置为当前时间，否则网元会工作在缺省时间里，而缺省时间并不是当前时间。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e86bd4e4"
+  },
+  {
+    "type": "single",
+    "content": "已经主备通道差异门限5dB,初始光功率主备通道均为2dBm。由于主通道光纤损耗增大，变为-4dBm,备用通道未变。该情况下会触发光线路保护倒换。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "5fe94ee8"
+  },
+  {
+    "type": "single",
+    "content": "传统OTN网络定义的最小管道颗粒度为ODU0,即1.25G,如果用于承载更小颗粒的业务，可能造成资源利用率不高的现象。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d5ea3dae"
+  },
+  {
+    "type": "single",
+    "content": "故障定位的基本原则是将故障准确定位到单站，甚至是单板。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ffe41eaa"
+  },
+  {
+    "type": "single",
+    "content": "光放大单元可以弥补线路损耗提高传输距离，通过多级级联的方式可以将系统传输距离延伸至无限远。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1b38df1a"
+  },
+  {
+    "type": "single",
+    "content": "T220E单板支持VC颗粒的交叉",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "762e3e3b"
+  },
+  {
+    "type": "single",
+    "content": "创建2M ASON 智能业务必须提前创建VC12虚拟TE链路",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2c718a32"
+  },
+  {
+    "type": "single",
+    "content": "光功率是波分系统的一项重要指标，直接关系到信号的传输距离，所以站点的输出光功率应该越高越好，这样才能保证信号能到达对端站点。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6ad6c814"
+  },
+  {
+    "type": "single",
+    "content": "TCP/IP协议中，传输层定义了数据包格式和寻址方式，主要负责数据包在网络中的路由。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "8b8c94d9"
+  },
+  {
+    "type": "single",
+    "content": "在非汇聚型OTU处理OTN标准信号场景中，OTU单板在客户侧收到OTUk_TIM告警后，会向下游回传OTUk_BDI告警。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ef4a9c0c"
+  },
+  {
+    "type": "single",
+    "content": "各级别的OTUk帧格式相同，级别越高则频率和速率也越高。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "afc51b8f"
+  },
+  {
+    "type": "single",
+    "content": "在光线路上，噪声不会随着传输距离的增加而减少。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "cee4e2f4"
+  },
+  {
+    "type": "single",
+    "content": "业务路径属千网管侧的网络层数据，网络层删除路径不会影响业务。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0dcff47d"
+  },
+  {
+    "type": "single",
+    "content": "DM功能可以用来统计业务报文的时延和抖动。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "645e2311"
+  },
+  {
+    "type": "single",
+    "content": "凡进行2M误码测试的155M支路可不再进行155M误码测试。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "dde9a724"
+  },
+  {
+    "type": "single",
+    "content": "系统误码指标可用远端环回方式进行测试，误码指标应采用单向指标，不需进行两个方向分别进行单向测试。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "4c8b5aed"
+  },
+  {
+    "type": "single",
+    "content": "按备份方式来说，通道保护环为1:1业务级保护，复用段保护环为1+1业务级保护。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2ac5a496"
+  },
+  {
+    "type": "single",
+    "content": "二纤双向复用段保护环的的保护容量是2×STM-4(假定为4个节点组成的STM-4环)，其特点是需要APS协议，适用于分散型业务。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "338e64ef"
+  },
+  {
+    "type": "single",
+    "content": "所谓自愈是指在网络发生故障(例如光纤断)时，无需人为干预，网络自动地在极短的时间内，ITU-T规定为50ms以内，使业务自动从故障中恢复传输，使用户几乎感觉不到网络出了故障。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1dc2f4f7"
+  },
+  {
+    "type": "single",
+    "content": "同步数字体系是一个将复接、线路传输及交换功能融为一体，并由统一网管系统操作的综合信息传送网络。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6d0781a5"
+  },
+  {
+    "type": "single",
+    "content": "以太网透传是指来自以太网接口的数据帧不经过二层交换，直接进行协议封装和速率适配后，映射到SDH的虚容器(VC)中进行传输。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "46a954cb"
+  },
+  {
+    "type": "single",
+    "content": "主机安全防护主要的方式包括：安全配置、安全补丁、安全主机加固。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "42c6c94f"
+  },
+  {
+    "type": "single",
+    "content": "B1字节位于再生段开销中，可监测出整个STM-N帧在传输中出现了的误码块数，因此高阶通道存在误码时，B1也能检测上报出来。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "8cede3d8"
+  },
+  {
+    "type": "single",
+    "content": "OTDR测试光纤距离时，选择测试范围应大于光纤全程长度。（ ）",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b56f12ba"
+  },
+  {
+    "type": "single",
+    "content": "SDH单向通道环的时隙利用率比复用段保护高。（ ）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "fc67b1aa"
+  },
+  {
+    "type": "single",
+    "content": "220kV及以上线路每套电流差动保护装置配置两条独立的通信通道，两条独立通道应由不同传输设备与光缆路由承载。保护装置的通信通道不得开通SDH自愈保护，可开通电力ASON网络“先拆后建”自愈恢复功能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "a04c7f45"
+  },
+  {
+    "type": "single",
+    "content": "ADSS 验收需检查光缆挂点位置与电力线的安全距离。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "5359940e"
+  },
+  {
+    "type": "single",
+    "content": "ALS功能是为了减少激光器的开启时间以延长光器件的使用寿命",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "a9dca23c"
+  },
+  {
+    "type": "single",
+    "content": "ASON正是有了控制平面和接口，通过协议和信令系统动态地交换网络拓扑状态信息、路由信息及其他控制信息，才具备了实现光通道的动态建立与拆除的能力和自动交换的功能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "bf29a2b8"
+  },
+  {
+    "type": "single",
+    "content": "AU-PTR定位VC-4在AU-4中的位置，TU-PTR定位VC-12在TU-12中的位置，与定帧字节一起完成从高速信号STM-N中直接下低速信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ec53c965"
+  },
+  {
+    "type": "single",
+    "content": "B3只能在一帧中检测出最多8个误码块，也就是说G1b1—b4的值0—8表示检测0—8个误码块，其余7个值（9-15）均被当成无误码块",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "fb8460e3"
+  },
+  {
+    "type": "single",
+    "content": "BITS设备应正确跟踪时钟级别最高的、正常的输入信号，并由此发生自动选择输入信号的倒换/倒回。()",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2689bafd"
+  },
+  {
+    "type": "single",
+    "content": "BITS是指大楼综合定时供给系统，其内部配置的振荡器为二级时钟，即Rb或晶体钟。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "deb28336"
+  },
+  {
+    "type": "single",
+    "content": "Bl监测STM-N帧的所有字节，而B2只监测除再生段开销以外的所有字节，B3只监测各通道VC-3和VC-4",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "97505ae7"
+  },
+  {
+    "type": "single",
+    "content": "E1数字中继接口阻抗，同轴不平衡接口为75欧，平衡电缆接口为120欧",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "fe487620"
+  },
+  {
+    "type": "single",
+    "content": "K1字节用于传送复用段自动保护倒换（APS）信令。K2(b6~b8)字节用于向复用段发送端回送接收端状态指示信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "450820e6"
+  },
+  {
+    "type": "single",
+    "content": "LPR（区域基准时钟源）由卫星定位系统+Rb原子钟组成的",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "5b769e27"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备交叉板应支持1+1备份配置，能实现在线切换。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6d75cfee"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应具有交叉连接板、电源板等关键部件的冗余备份。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "cc7ffdd0"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应支持点到点的以太网业务、点到多点以太网业务汇聚以及透明LAN业务",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "51e2959c"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应至少配置外同步输入接口和外同步输出接口各两个，接口种类为2048kb/s或2048kHz",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9128ffe2"
+  },
+  {
+    "type": "single",
+    "content": "PDH采用按字复接，没有全世界统一的接口标准",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e4bdbd55"
+  },
+  {
+    "type": "single",
+    "content": "PDH采用的数字复接方法一般为异步复接",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3e5b689f"
+  },
+  {
+    "type": "single",
+    "content": "PRC和LPR都是一级基准时钟",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2eeadd1d"
+  },
+  {
+    "type": "single",
+    "content": "RSOH、MSOH、HPOH、LPOH完成层层细化的监控功能",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b9bcc3d5"
+  },
+  {
+    "type": "single",
+    "content": "SDH传输体制的一个特点是对于任意STM级别，帧频恒定",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "82e12c48"
+  },
+  {
+    "type": "single",
+    "content": "SDH传输网STM-16信号的标准速率为（2.5G）kbit/s",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0ce5c177"
+  },
+  {
+    "type": "single",
+    "content": "SDH传输网最基本的同步传送模块是VC12",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f37ed626"
+  },
+  {
+    "type": "single",
+    "content": "SDH的带宽利用率比PDH的带宽的利用率高",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f34ac487"
+  },
+  {
+    "type": "single",
+    "content": "SDH多业务平台的充分利用了SDH技术的保护恢复、延时性能和网管能力，并加以改进支持二层乃至三层的数据智能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7ba29ef9"
+  },
+  {
+    "type": "single",
+    "content": "SDH复用映射结构中容器是一种用来装载各种不同速率的信息结构，有C11、C12、C2、C3、C4五种",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "41bc9347"
+  },
+  {
+    "type": "single",
+    "content": "SDH光接口按光纤距离、光板速率和使用波长分别以不同的代码表示。L—16.2就是某种光接口代码，其中L表示长距、16表示STM-16、2表示波长1550nm",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "32e6c768"
+  },
+  {
+    "type": "single",
+    "content": "SDH设备时钟频率准确度是±4.6×10-8",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d13ee557"
+  },
+  {
+    "type": "single",
+    "content": "SDH网管系统利用帧结构中丰富的开销字节，实施对SDH设备和SDH传送网的各项管理",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "4c930307"
+  },
+  {
+    "type": "single",
+    "content": "SDH网络保护方式，由于1：1方式的保护通路可用于传送额外业务，因而系统效率高于1+1方式。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c4cead91"
+  },
+  {
+    "type": "single",
+    "content": "SDH网络基本单元中的虚容器可分成低阶虚容器、中阶虚容器和高阶虚容器三类。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b2ac23ad"
+  },
+  {
+    "type": "single",
+    "content": "SDH网络具备的OAM功能是指：运行、配置和维护能力",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "37cd76be"
+  },
+  {
+    "type": "single",
+    "content": "SDH信号的速率等级表示为STM-N，其中N是正整数，可以是任意值",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "63be0019"
+  },
+  {
+    "type": "single",
+    "content": "SDH以字节为（8bit）单位进行传输，STM-1的帧结构是一种以字节结构为基础的矩形块状帧结构，它由270列和9行字节组成",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3916eab1"
+  },
+  {
+    "type": "single",
+    "content": "SDH帧结构由段开销、AU-PTR、净负荷三部分构成",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b8b2fe5d"
+  },
+  {
+    "type": "single",
+    "content": "SDH只能通过光纤进行传输",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "49a23078"
+  },
+  {
+    "type": "single",
+    "content": "SDH自愈保护中因为2纤双向环中每个方向的业务光纤和保护光纤是同一条光纤，即在一条光纤上既传输业务信号又传输保护信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "772a8161"
+  },
+  {
+    "type": "single",
+    "content": "SDH字节间插复用时，所有字节都进行间插",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "eb29c0dd"
+  },
+  {
+    "type": "single",
+    "content": "SNMP不是网络管理协议",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c127deae"
+  },
+  {
+    "type": "single",
+    "content": "按ITU规范，标准SDH的STM-1电信号可以不扰码。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b67df72c"
+  },
+  {
+    "type": "single",
+    "content": "不可用时间是指连续10秒内每秒的误码率都劣于10E-3，从该段时间的第一秒起就认为进入了不可用时间",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f5e72cf3"
+  },
+  {
+    "type": "single",
+    "content": "常见的网元类型有TM、ADM、REG和DXC",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0b4619e4"
+  },
+  {
+    "type": "single",
+    "content": "从时钟的锁定状态是从时钟的非正常工作状态。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6735c38e"
+  },
+  {
+    "type": "single",
+    "content": "当SDH系统内不支持SSM功能时，不能采用该系统传递定时。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "f7a7fd18"
+  },
+  {
+    "type": "single",
+    "content": "当多个具有一定强度的光波在光纤中混合时，光纤的非线性会导致产生其它新的波长，就是四波混频效应。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3c507318"
+  },
+  {
+    "type": "single",
+    "content": "各网络节点同步输入接口应接受来自局内BITS设备不同输出模块的两路定时信号，采用一主一备外定时信号方式。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d2e1d99e"
+  },
+  {
+    "type": "single",
+    "content": "更换单板的时候，可以带纤芯插拔。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "77e0e73c"
+  },
+  {
+    "type": "single",
+    "content": "故障定位的常用方法：一分析，二环回，三换板。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c73bd405"
+  },
+  {
+    "type": "single",
+    "content": "光波是一种高频电磁波，不同波长（频率）的光波复用在一起进行传输，彼此之间相互作用，可能产生非线性效应。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e4ac5a35"
+  },
+  {
+    "type": "single",
+    "content": "光传输系统的中继段长度计算应按坏值设计法计算",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "ed1b920d"
+  },
+  {
+    "type": "single",
+    "content": "光交换技术是指不经过任何光/电转换，在光域直接将输入光信号交换到不同的输出端。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d762bc7a"
+  },
+  {
+    "type": "single",
+    "content": "光接收机的主要作用是将经过光纤传输的微弱光信号转换成电信号，并放大、再生成原发射的信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "444cd20f"
+  },
+  {
+    "type": "single",
+    "content": "光接收机灵敏是指R点处为达到1×10-6的BER值所需要的平均接收功率的最小可接收值",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0ce7d521"
+  },
+  {
+    "type": "single",
+    "content": "光纤色散是指光纤所传信号的不同频率或不同模式有不同的传播群速度，导致所传信号到达终端时造成信号脉冲展宽，从而引起信号失真",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "356b2f63"
+  },
+  {
+    "type": "single",
+    "content": "环回会导致正常业务暂时中断，一般只有在业务出现中断等重大事故时，才使用环回法进行故障排除。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "16efa428"
+  },
+  {
+    "type": "single",
+    "content": "调度自动化通道优先采用E1通道或MSTP数据专线和调度数据网络两条完全独立的通道。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "622aca3e"
+  },
+  {
+    "type": "single",
+    "content": "通道保护功能是由支路板和线路板完成的。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "04b4b945"
+  },
+  {
+    "type": "single",
+    "content": "通信网同步与保护、自动化专业的同步是一样的。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "16dff551"
+  },
+  {
+    "type": "single",
+    "content": "同步设备的定时输出功能无需冗余配置功能。()",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e1a558cb"
+  },
+  {
+    "type": "single",
+    "content": "同步设备应能配置2级节点时钟或3级节点时钟。()",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "57b67de4"
+  },
+  {
+    "type": "single",
+    "content": "同步网由同步网节点设备(各种级别高精度的时钟)和定时链路组成。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3fdee393"
+  },
+  {
+    "type": "single",
+    "content": "外同步接口(包括输入和输出)可有两种选择，即2048kHz和2048kbit/s，但应优先选用2048kHz。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c12f4783"
+  },
+  {
+    "type": "single",
+    "content": "稳控系统中主站、子站和执行站之间采用1条独立专线通道，每条通道应开通SDH网络自愈功能。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9d8d8ebb"
+  },
+  {
+    "type": "single",
+    "content": "无输入信号上光路传输，光路上传送的是AIS信号。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "bf2106e9"
+  },
+  {
+    "type": "single",
+    "content": "误码产生的主要原因是在传输信道中的噪声和干扰以迭加的形式随信号一起进入判决电路，使判决再生电路产生误码。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3fefc96a"
+  },
+  {
+    "type": "single",
+    "content": "信噪比越大，信息传输的质量就越差",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "e9ed438b"
+  },
+  {
+    "type": "single",
+    "content": "一般同步时钟的精度外时钟≥线路提取时钟≥内部自由钟",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "276ade27"
+  },
+  {
+    "type": "single",
+    "content": "一个STM-1 信号最多可分解复用成1 个140Mbps、3 个34Mbps、63 个2Mbps 信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "9695881f"
+  },
+  {
+    "type": "single",
+    "content": "一级基准钟频率准确度应优于±1×10-11",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "4dd74952"
+  },
+  {
+    "type": "single",
+    "content": "以基准时钟为参考基准，在连续同步工作30天之后，保持一年时间的情况下，2级基准时钟的频率准确度要求为优于1.6×10E-8。()",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "dd10e947"
+  },
+  {
+    "type": "single",
+    "content": "用光功率计测试收光功率为0dBm时，即表示收不到光",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "5e2b5da1"
+  },
+  {
+    "type": "single",
+    "content": "用于安自的2M通道关闭其重定时功能，同时将稳控装置通信时钟设置为“主—主”方式或“主—从”方式。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7d69e3dc"
+  },
+  {
+    "type": "single",
+    "content": "由BITS设备输出的2.048MHz定时信号带有SSM协议。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "28dea3b8"
+  },
+  {
+    "type": "single",
+    "content": "由于ADM具有灵活的插入／分出电路的功能，当它用于两终端之间的一个中继点上时，可作为提取和插入准同步信号或同步信号的复用设备，因此常用于线形网和环形网",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6306979b"
+  },
+  {
+    "type": "single",
+    "content": "在850nm窗口，光纤即可以用于单模传输，又可以用于多模传输",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b556d212"
+  },
+  {
+    "type": "single",
+    "content": "在SDH中，AU-4指针调整时，相邻两次调整至少间隔3帧",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "c7682e9e"
+  },
+  {
+    "type": "single",
+    "content": "在光纤回路进行接触激光源的工作，不需要采取防护措施。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "d99c5796"
+  },
+  {
+    "type": "single",
+    "content": "在光纤通信中，光电检波器的作用是将光信号变为电信号",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b0de6b8b"
+  },
+  {
+    "type": "single",
+    "content": "在判断某传输设备的光板故障时，可直接用尾纤将其自环测试。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2b180db2"
+  },
+  {
+    "type": "single",
+    "content": "在制定本地BITS设备输出端口分配方案时，应避免出现定时环路，包括主、备用定时基准链路倒换时不应构成定时环路。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1cf30b01"
+  },
+  {
+    "type": "single",
+    "content": "最适合于DWDM系统使用的光纤是G.652，因为该光纤的色散系数较小，衰耗系数与其他类型的光纤相差无几，而且能够有效抑制四波混频效应。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1bb634d4"
+  },
+  {
+    "type": "single",
+    "content": "若线路两侧保护装置为新配置装置，且通信设备支持2M光接口，保护装置复用2M通道均应采用2M光接口",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "396a9981"
+  },
+  {
+    "type": "single",
+    "content": "2048kHz外同步输入接口应具有识别SSM质量等级的功能，或具有识别AIS信息的功能及预置SSM质量等级的功能。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "2adfa212"
+  },
+  {
+    "type": "single",
+    "content": "设备外部环回可在设备的相应接口或ODF、DDF配线架上进行。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b149a58b"
+  },
+  {
+    "type": "single",
+    "content": "MSTP设备应支持子网连接保护（SNCP）、二纤复用段共享环保护（2F MS-SPRING）、四纤复用段共享环保护（4F MS-SPRING）（STM-64设备）、环间互通业务保护（DNI）等。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "37235e82"
+  },
+  {
+    "type": "single",
+    "content": "以太网数据帧的封装应采用GFP或LAPS协议，首选GFP封装协议。GFP具体技术规范应符合ITU-T建议G.7041。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "550d1655"
+  },
+  {
+    "type": "single",
+    "content": "自动倒换功能检查项目包括保护倒换准则检查和保护倒换时间测试。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "49815946"
+  },
+  {
+    "type": "single",
+    "content": "SDH光传输设备的传输距离主要由衰减、抖动等因素决定。",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "bf522c43"
+  },
+  {
+    "type": "single",
+    "content": "SDH设备进行复用段保护采用的APS协议中，使用K1、K2字节。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0b54688e"
+  },
+  {
+    "type": "single",
+    "content": "光放大器属于有源器件。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "8042c4f9"
+  },
+  {
+    "type": "single",
+    "content": "所有光方向到TM的业务必须落地、不同光方向的业务不能通过光板直接穿通的SDH设备可配置成TM网元。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "809249e2"
+  },
+  {
+    "type": "single",
+    "content": "自愈环按环上业务的方向可将自愈环分为单向环和双向环两大类。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "07f253cf"
+  },
+  {
+    "type": "single",
+    "content": "ASON网的新建、扩建、改造应与现有运行网络互联互通，纳入同一网管系统统一管理。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "3f0d12ff"
+  },
+  {
+    "type": "single",
+    "content": "OTUk帧的帧结构大小是可变的。（）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "76c2662d"
+  },
+  {
+    "type": "single",
+    "content": "OTN系统分为OTN传送层、OTN管理层和OTN控制层（可选）三个层面，OTN传送层可分为OTN电传送层和OTN光传送层。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "dc468fb7"
+  },
+  {
+    "type": "single",
+    "content": "OTM-nr.m由最多n个光通道复合组成，r表示简化功能（reduced）,支持非随路开销。（）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "b2771e12"
+  },
+  {
+    "type": "single",
+    "content": "为了实现网络的可恢复性，在ASON中存在两种机制：保护和恢复。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "7434d3b2"
+  },
+  {
+    "type": "single",
+    "content": "现网的WDM系统大都采用单纤双向传输方式。（）",
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "0ebe68a3"
+  },
+  {
+    "type": "single",
+    "content": "完全标准化光传送单元OTUk是完全符合ITU-TG.709建议的OTUk帧，它具有ITU-TG.709中规定的精确字段格式、字段大小和类型。（）",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "8c1a3b58"
+  },
+  {
+    "type": "single",
+    "content": "相比于SDH系统，WDM系统对于光纤的利用率提升是将光纤划分成了“多车道”。（）",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "abd003d6"
+  },
+  {
+    "type": "single",
+    "content": "通信网管及业务应用系统指的是用于监视和控制电力通信网络运行的通信网管系统，以及基于计算机及网络技术的语音、视频、应急等通信业务应用系统。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "6b6b5c1c"
+  },
+  {
+    "type": "single",
+    "content": "用于监视和控制电力通信网络运行的通信网管系统，以及基于计算机及网络技术的语音、视频、应急等通信业务应用系统。",
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "id": "1f1ba966"
+  }
+]

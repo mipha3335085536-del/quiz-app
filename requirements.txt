@@ -1,0 +1,7 @@
+# Kivy APK 构建依赖 (用于 Buildozer)
+# 这些包在 buildozer.spec 的 requirements 中声明
+# 本文件仅作为文档参考
+kivy==2.3.1
+openpyxl==3.1.5
+pillow
+Cython

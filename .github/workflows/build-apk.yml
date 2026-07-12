@@ -1,0 +1,70 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60  # APK 构建可能需要较长时间
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y \
+            python3-pip \
+            zip unzip \
+            autoconf automake libtool \
+            libltdl-dev libffi-dev libssl-dev \
+            libncurses5-dev
+
+      - name: Cache Buildozer
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.buildozer
+            .buildozer
+          key: buildozer-${{ runner.os }}-${{ hashFiles('buildozer.spec') }}
+          restore-keys: |
+            buildozer-${{ runner.os }}-
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip setuptools wheel
+          pip install --upgrade Cython==0.29.37 buildozer
+
+      - name: Build APK with Buildozer
+        run: |
+          buildozer -v android debug
+
+      - name: List built APKs
+        run: |
+          echo "=== Built APKs ==="
+          ls -lh bin/ 2>/dev/null || echo "No APKs found in bin/"
+          find . -name "*.apk" -type f -exec ls -lh {} \; 2>/dev/null || echo "No APK files found"
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 通信网络题库答题系统
+          path: |
+            bin/*.apk
+            .buildozer/android/platform/build-*/dists/*/bin/*.apk
+          retention-days: 30

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Buildozer
+.buildozer/
+bin/
+*.apk
+*.aab
+
+# Uploads / temp
+uploads/
+quiz-app.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flask stuff (not needed for APK)
+app.py
+gui_app.py
+session_manager.py
+static/
+
+# PyInstaller spec
+通信网络题库答题系统.spec
+
+# Web (HTML version, not needed for APK)
+web/
+server.py
+check_server.py
+_script_0.js
+screenshot*.png
+
+# Docs
+APK_BUILD_GUIDE.md
+build_apk.bat
