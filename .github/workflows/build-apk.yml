@@ -79,7 +79,12 @@ jobs:
           ANDROID_HOME: ${{ env.ANDROID_HOME }}
           ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
         run: |
-          buildozer -v android debug
+          buildozer -v android debug > buildozer.log 2>&1
+          EXIT_CODE=$?
+          echo "Buildozer exit code: $EXIT_CODE"
+          echo "=== BUILD LAST 300 LINES ==="
+          tail -n 300 buildozer.log
+          exit $EXIT_CODE
 
       - name: List built APKs
         run: |
@@ -94,4 +99,5 @@ jobs:
           path: |
             bin/*.apk
             .buildozer/android/platform/build-*/dists/*/bin/*.apk
+            buildozer.log
           retention-days: 30

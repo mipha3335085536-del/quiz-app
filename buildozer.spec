@@ -33,7 +33,7 @@ android.statusbar_color = 1E293B
 android.navbar_color = 1E293B
 
 # 日志级别
-log_level = 2
+log_level = 1
 
 # 架构（arm64-v8a 兼容 99% 现代手机）
 android.archs = arm64-v8a
