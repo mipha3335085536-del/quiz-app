@@ -45,12 +45,31 @@ jobs:
           restore-keys: |
             buildozer-${{ runner.os }}-
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          cmdline-tools-version: 11076708
+          packages: 'platform-tools platforms;android-33 build-tools;33.0.0'
+          accept-license: true
+
+      - name: Accept Android SDK licenses
+        run: |
+          export ANDROID_HOME=$HOME/android-sdk
+          export ANDROID_SDK_ROOT=$ANDROID_HOME
+          mkdir -p $ANDROID_HOME/cmdline-tools
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
+          echo "ANDROID_HOME=$ANDROID_HOME" >> $GITHUB_ENV
+          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT" >> $GITHUB_ENV
+
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip setuptools wheel
           pip install --upgrade Cython==0.29.37 buildozer
 
       - name: Build APK with Buildozer
+        env:
+          ANDROID_HOME: ${{ env.ANDROID_HOME }}
+          ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
         run: |
           buildozer -v android debug
 
