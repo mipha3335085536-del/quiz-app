@@ -82,8 +82,9 @@ jobs:
           buildozer -v android debug > buildozer.log 2>&1
           EXIT_CODE=$?
           echo "Buildozer exit code: $EXIT_CODE"
+          ls -la buildozer.log || true
           echo "=== BUILD LAST 300 LINES ==="
-          tail -n 300 buildozer.log
+          cat buildozer.log | tail -n 300
           exit $EXIT_CODE
 
       - name: List built APKs
@@ -93,6 +94,7 @@ jobs:
           find . -name "*.apk" -type f -exec ls -lh {} \; 2>/dev/null || echo "No APK files found"
 
       - name: Upload APK artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: 通信网络题库答题系统
